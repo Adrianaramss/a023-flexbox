@@ -7,7 +7,12 @@
   height: 100vh;
   width: 100vw;
   background-color: lightgray;
-  display: flex;
+  display: flex;     
+  justify-content: center; /*<!--- centralizar os itens ---> */
+  align-items: center;   /*<!--- centralizar os itens ---> */
+  flex-direction: column; /*<!--- colocar vertical ---> */
+  gap: 40px;     /*<!--- afastar as caixas  ---> */
+  
 }
 
 .item {
@@ -15,4 +20,8 @@
   background-color: white;
   height: 180px;
   width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
